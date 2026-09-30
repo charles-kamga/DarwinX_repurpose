@@ -1,0 +1,28 @@
+# Pipeline de repurposing vidéo (Darwinx_Repurpose)
+
+# Ingestion
+yt-dlp>=2024.0.0
+
+# Transcription audio avec horodatage mot-par-mot
+faster-whisper>=1.0.0
+
+# LLM pour scoring des moments viraux
+anthropic>=0.18.0
+groq>=0.11.0
+
+# Traitement vidéo et détection de visage (cadrage 9:16)
+opencv-python>=4.8.0,<5.0.0
+
+# Concurrence et verrouillage inter-processus par job
+filelock>=3.13.0
+
+# Interface terminal riche (TUI) et requêtes HTTP
+rich>=13.0.0
+httpx>=0.25.0
+
+# Traitement d'images et composition de miniatures
+Pillow>=10.0.0
+
+# Tests unitaires et d'intégration
+pytest>=8.0.0
+

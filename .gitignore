@@ -1,0 +1,36 @@
+# Secrets & Clés privées (NE JAMAIS COMMETTER)
+.env
+*.env
+*.pem
+*.key
+
+# Environnement virtuel Python
+.venv/
+env/
+venv/
+
+# Cache Python, Whisper & compilation
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache/
+
+# Artefacts & persistance générés par le pipeline
+projects/
+output/
+downloads/
+jobs/
+*.lock
+
+# Logs, tests & couverture
+*.log
+*.tmp
+.coverage
+htmlcov/
+
+# Fichiers système & IDE
+.DS_Store
+.idea/
+.vscode/
+
